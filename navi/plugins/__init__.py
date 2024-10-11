@@ -35,6 +35,7 @@ from .smtp import smtp
 from .automation import automate
 from .software import software
 from .move_tags import move
+from .stream import stream
 
 
 def plugin_loader(group):
@@ -75,3 +76,4 @@ def plugin_loader(group):
     group.add_command(smtp)
     group.add_command(software)
     group.add_command(move)
+    group.add_command(stream)
